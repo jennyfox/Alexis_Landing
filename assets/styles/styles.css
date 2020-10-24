@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Wisdom Script";
+    src: url('./assets/fonts/WisdomScriptAJ.otf');
+    font-style: normal; 
+    font-weight: normal;
+    /* font-family: "Poppins-Regular";
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-style: normal; 
+    font-weight: normal;
+    font-family: "LibreBaskerville-Regular";
+    src: url(../fonts/LibreBaskerville-Regular.otf);
+    font-style: normal; 
+    font-weight: normal; */
+    }
+
+body {
+    margin: 0;
+}
+
+.white {
+    background-color: white;
+}
+
+.dark_grey{
+    background-color: #3f4049;
+}
+
+.light_grey{
+    background-color: #f7f7f7;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    display: block; 
+}
+
+.general {
+    width: 100%;
+}
+
+.main_container {
+    width: 1140px;
+    padding: 150px 30px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.header {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    /* font: 35px "Wisdom Script"; */
+    font-family: "window Script";
+    font-size: 35px;
+    color: #616161
+}
+
+.menu > ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu > ul > li {
+    font: 'Poppins-Regular', #272727;
+    padding: auto 12px;
+}
+
+.banner {
+    height: 775px;
+}
+
+.about {
+    height: 1000px;
+}
+
+.focus {
+    height: 850px;
+    background-color: #f7f7f7;
+}
+
+.explore {
+    height: 500px;
+    background-color: #3f4049;
+}
+
+.portfolio {
+    height: 1384px;
+}
+
+.team {
+
+}
+
+.numbers {
+
+}
+
+.steps {
+
+}
+
+.pricing {
+
+}
+
+.testimonials {
+
+}
+
+.why {
+
+}
+
+.blog {
+
+}
+
+.subscribe {
+
+}
+
+.get {
+
+}
+
+
