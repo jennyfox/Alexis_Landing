@@ -1,32 +1,27 @@
 @font-face {
-    font-family: "Wisdom Script";
-    src: url('./assets/fonts/WisdomScriptAJ.otf');
-    font-style: normal; 
-    font-weight: normal;
-    /* font-family: "Poppins-Regular";
-    src: url(../fonts/Poppins-Regular.ttf);
-    font-style: normal; 
-    font-weight: normal;
-    font-family: "LibreBaskerville-Regular";
-    src: url(../fonts/LibreBaskerville-Regular.otf);
-    font-style: normal; 
+    font-family: 'WisdomScript';
+    src: url('../fonts/WisdomScriptAJ.otf') format('otf');
+    src: url('../fonts/Wisdom Script AJ.woff') format('woff');
+    /* font-style: normal; 
     font-weight: normal; */
-    }
+}
+
+/* @font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../fonts/Poppins-Regular.ttf') format('ttf');
+    font-style: normal; 
+    font-weight: medium;
+}     */
+    
+@font-face {
+    font-family: 'LibreBaskerville-Regular';
+    src: url('../fonts/LibreBaskerville-Regular.otf') format('otf');
+    /* font-style: normal; 
+    font-weight: normal; */
+}    
 
 body {
     margin: 0;
-}
-
-.white {
-    background-color: white;
-}
-
-.dark_grey{
-    background-color: #3f4049;
-}
-
-.light_grey{
-    background-color: #f7f7f7;
 }
 
 ul {
@@ -44,6 +39,10 @@ a {
     display: block; 
 }
 
+header .main_container {
+    padding: 0px 30px;
+}
+
 .general {
     width: 100%;
 }
@@ -55,17 +54,36 @@ a {
     margin: 0 auto;
 }
 
+.white {
+    background-color: white;
+}
+
+.dark_grey {
+    background-color: #3f4049;
+}
+
+.light_grey {
+    background-color: #f7f7f7;
+}
+
 .header {
     height: 75px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-    /* font: 35px "Wisdom Script"; */
-    font-family: "window Script";
+    font-family: "WisdomScript";
     font-size: 35px;
-    color: #616161
+    color: #616161;
+}
+
+.menu {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #272727;
 }
 
 .menu > ul {
@@ -74,8 +92,7 @@ a {
 }
 
 .menu > ul > li {
-    font: 'Poppins-Regular', #272727;
-    padding: auto 12px;
+    padding: 0 12px;
 }
 
 .banner {
