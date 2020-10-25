@@ -16,6 +16,7 @@
 @font-face {
     font-family: 'LibreBaskerville-Regular';
     src: url('../fonts/LibreBaskerville-Regular.otf') format('otf');
+    src: url('../fonts/LibreBaskerville-Regular.ttf') format('ttf');
     /* font-style: normal; 
     font-weight: normal; */
 }    
@@ -99,8 +100,35 @@ header .main_container {
     height: 775px;
 }
 
+.banner > p {
+    font-family: 'LibreBaskerville-Regular';
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
 .about {
     height: 1000px;
+    position: relative;
+}
+
+.about_1 {
+    height: 700px;
+    width: 555px;
+    background-color: #cccccc;
+}
+
+.about_2 {
+    width: 652px;
+    height: 547px;
+    background-color: white;
+    position: absolute;
+    bottom: 76.5px;
+    right: 0;
+}
+
+.shadow {
+    box-shadow: 5px 5px 20px 2px black;
 }
 
 .focus {
