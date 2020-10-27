@@ -278,6 +278,47 @@ header .main_container {
     height: 1384px;
 }
 
+.portfolio_blocks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 18px; 
+}
+
+.image_1_complex {
+    position: relative;
+    border: solid 5px white;
+}
+
+.image_1_plus {
+    position: absolute;
+    top: 84px; 
+    left: 147px;
+}
+
+.image_1_bottom {
+    position: absolute;
+    top: 227px; 
+    left: 0px;
+    background-color: white;
+    height: 66px;
+    width: 100%;
+}
+
+.text_pop_18 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500; 
+    color: #313131;
+    text-align: center;
+}
+
+.color_block_2 {
+    display: flex;
+    align-items: flex-start;
+}
+
 .team {
 
 }
