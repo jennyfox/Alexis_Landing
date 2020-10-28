@@ -113,6 +113,16 @@ header .main_container {
     text-align: center;
 }
 
+.text_pop_16_white {
+    position: absolute;
+    left: 522px;
+    top: 13px; 
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+    font-size: 16px; 
+    color: white;
+}
+
 .group_icons_1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -320,6 +330,38 @@ header .main_container {
 }
 
 .team {
+    height: 1126px;
+}
+
+.team_grid_blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center; 
+}
+
+.team_grid_blocks > div {
+    height: 347px; 
+    width: 263px;
+    background-color: white;
+}
+
+.grid_block_1 {
+    border-bottom: solid 3px #fc5f45;
+}
+
+.grid_1_gradient {
+    height: 260px;
+    width: 253px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.grid_block_title {
+
+}
+
+.grid_block_under_title {
 
 }
 
