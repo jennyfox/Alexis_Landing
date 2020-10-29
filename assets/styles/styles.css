@@ -73,6 +73,12 @@ header .main_container {
     background-color: #f7f7f7;
 }
 
+.backgound_picture {
+    height: 464px;
+    background-image: url(../images/bg_image.png);
+    background-size: cover;
+}
+
 .header {
     height: 75px;
     display: flex;
@@ -267,7 +273,7 @@ header .main_container {
     color: #616161;
 }
 
-.white_15_text {
+.white_text {
     color: white;
 }
 
@@ -337,6 +343,7 @@ header .main_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center; 
+    justify-items: center;
 }
 
 .team_grid_blocks > div {
@@ -355,18 +362,137 @@ header .main_container {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
+    background-color: #cbcbcb;
+}
+
+.title_1_color {
+    color: #fc5f45;
+    margin-block-start: 10px;
+    margin-block-end: 5px;
+}
+
+.grid_block_2 {
+    border-bottom: solid 3px #38c695;
+}
+
+.grid_2_gradient {
+    height: 260px;
+    width: 253px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: #cbcbcb;
+}
+
+.title_2_color {
+    color: #38c695;
+    margin-block-start: 10px;
+    margin-block-end: 5px;
+}
+
+.grid_block_3 {
+    border-bottom: solid 3px #b27cf5;
+}
+
+.grid_3_gradient {
+    height: 260px;
+    width: 253px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: #cbcbcb;
+}
+
+.title_3_color {
+    color: #b27cf5;
+    margin-block-start: 10px;
+    margin-block-end: 5px;
+}
+
+.grid_block_4 {
+    border-bottom: solid 3px #feb960;
+}
+
+.grid_4_gradient {
+    height: 260px;
+    width: 253px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: #cbcbcb;
+}
+
+.title_4_color {
+    color: #feb960;
+    margin-block-start: 10px;
+    margin-block-end: 5px;
 }
 
 .grid_block_title {
-
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500; 
 }
 
 .grid_block_under_title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400; 
+    color: #616161;
+    margin-block-start: auto;
+}
 
+.team_bennet_img {
+    width: 100%;
+    height: 100%;
+}
+
+.team_bennet_flex {
+    display: flex;
+    position: absolute;
+    top: 46%;
+    left: 0px;
+}
+
+.team_bennet_text {
+    margin: 114px 100px 74px 97px;
+    flex: 4;
+}
+
+.text_style_pop_20 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #272727;
+}
+
+.social_icons {
+    flex: 1;
 }
 
 .numbers {
 
+}
+
+.numbers_flex {
+    display: flex;
+    text-align: center;
+}
+
+.numbers_flex_1 {
+    flex: 1;
+}
+
+.numbers_flex_2 {
+    flex: 1;
+}
+
+.numbers_flex_3 {
+    flex: 1;
+}
+
+.numbers_flex_4 {
+    flex: 1;
 }
 
 .steps {
