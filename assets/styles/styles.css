@@ -450,12 +450,12 @@ header .main_container {
 .team_bennet_flex {
     display: flex;
     position: absolute;
-    top: 46%;
+    top: 48%;
     left: 0px;
 }
 
 .team_bennet_text {
-    margin: 114px 100px 74px 97px;
+    margin: auto 50px auto 140px;
     flex: 4;
 }
 
@@ -467,8 +467,29 @@ header .main_container {
 }
 
 .social_icons {
-    flex: 1;
+    flex: 1.6;
+    border-left: solid 2px #efefef;
+    height: 151px;
+    margin: 75px 0px 0px;
 }
+
+.share_icon_style {
+    flex: 0.8; 
+    text-align: center;
+    margin: 95px 0px 0px;
+    height: 151px;
+}
+
+.icon_text {
+    display: flex;
+    height: 25%;
+}
+
+.icon_text > img {
+    width: 15px;
+    height: 15px; 
+    margin: auto 0px;  
+} 
 
 .numbers {
 
@@ -496,7 +517,85 @@ header .main_container {
 }
 
 .steps {
+    height: 1726px;
+    position: relative;
+}
 
+.steps_gradient_blocks {
+    margin-top: 127px;
+}
+
+.steps_gradient_blocks > div {
+    width: 556px;
+    height: 300px;
+    background-color: #cbcbcb;
+    margin: 0 auto;
+}
+
+.steps_gradient_block_01 {
+
+}
+
+.steps_gradient_block_02 {
+
+}
+
+.steps_gradient_block_03 {
+
+}
+
+.steps_gradient_block_04 {
+
+}
+
+/* .abs_blocks {
+    position: relative;
+    height: 1200px;
+} */
+
+.abs_blocks > div {
+    height: 298px; 
+    width: 458px; 
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+.abs_01 {
+    top: 10%;
+    left: 0px;
+    border-bottom: solid 3px #fc5f45;
+    display: flex;
+}
+
+.abs_02 {
+    top: 27%;
+    right: 0px;
+    border-bottom: solid 3px #38c695;
+    display: flex;
+}
+
+.abs_03 {
+    top: 45%;
+    left: 0px;
+    border-bottom: solid 3px #b27cf5;
+    display: flex;
+}
+
+.abs_04 {
+    bottom: 20%;
+    right: 0px;
+    border-bottom: solid 3px #feb960;
+    display: flex;
+}
+
+.abs_text_title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #272727;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
 .pricing {
