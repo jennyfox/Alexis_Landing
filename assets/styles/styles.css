@@ -146,8 +146,8 @@ header .main_container {
 .about_1 {
     height: 700px;
     width: 555px;
-    background-color: #cccccc;
     border: solid 10px #a3a3a3;
+    background: linear-gradient(to bottom, #cccccc, #d2bcb9);
 }
 
 .about_2 {
@@ -157,6 +157,23 @@ header .main_container {
     position: absolute;
     bottom: 76.5px;
     right: 0;
+}
+
+.transparent_number {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #f6f6f6;
+    font-size: 273px;
+    position: absolute;
+    left: -5px;
+    top: -90px;
+    margin-top: 0px;
+}
+
+.about_us_text {
+    width: 448px;
+    z-index: 1;
+    position: absolute;
 }
 
 .shadow {
@@ -196,7 +213,7 @@ header .main_container {
 .color_blocks {
     display: flex;
     align-items: flex-end;
-    margin-top: 133px;
+    height: 450px;
 }
 
 .colorful_1 {
@@ -491,10 +508,6 @@ header .main_container {
     margin: auto 0px;  
 } 
 
-.numbers {
-
-}
-
 .numbers_flex {
     display: flex;
     text-align: center;
@@ -533,25 +546,20 @@ header .main_container {
 }
 
 .steps_gradient_block_01 {
-
+    background: linear-gradient(to bottom, #cccccc, #d2bcb9);
 }
 
 .steps_gradient_block_02 {
-
+    background: linear-gradient(to bottom, #cccccc, #b7cbc4);
 }
 
 .steps_gradient_block_03 {
-
+    background: linear-gradient(to bottom, #cccccc, #c8c0d1);
 }
 
 .steps_gradient_block_04 {
-
+    background: linear-gradient(to bottom, #cccccc, #d2c9bc);
 }
-
-/* .abs_blocks {
-    position: relative;
-    height: 1200px;
-} */
 
 .abs_blocks > div {
     height: 298px; 
@@ -599,7 +607,34 @@ header .main_container {
 }
 
 .pricing {
+    height: 1051px;
+}
 
+.pricing_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    text-align: center; 
+    justify-items: center;
+}
+
+.pricing_grid > div {
+    background-color: white;
+    height: 572px;
+    width: 360px;
+    text-align: center;
+}
+
+.pricing_grid_01 {
+    border-top: solid 3px #38c695;
+}
+ 
+.pricing_grid_02 {
+    border-top: solid 3px #fc5f45;
+}
+
+.pricing_grid_03 {
+    border-top: solid 3px #b27cf5;
 }
 
 .testimonials {
