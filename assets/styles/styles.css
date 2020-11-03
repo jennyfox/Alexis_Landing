@@ -6,12 +6,12 @@
     font-weight: normal; */
 }
 
-/* @font-face {
-    font-family: 'PoppinsRegular';
-    src: url('../fonts/Poppins-Regular.ttf') format('ttf');
+@font-face {
+    font-family: 'Sacramento-Regular';
+    src: url('../fonts/Sacramento-Regular.ttf') format('ttf');
+    src: url('../fonts/Sacramento-Regular.woff') format('woff');
     font-style: normal; 
-    font-weight: medium;
-}     */
+}    
     
 @font-face {
     font-family: 'LibreBaskerville-Bold';
@@ -246,7 +246,7 @@ header .main_container {
 
 .focus_blocks {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     text-align: center;
     margin-top: 70px;
 }
@@ -288,6 +288,8 @@ header .main_container {
     font-size: 15px;
     font-weight: 400;
     color: #616161;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .white_text {
@@ -305,6 +307,8 @@ header .main_container {
     font-size: 30px;
     font-weight: 400; 
     color: white;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .portfolio {
@@ -317,6 +321,7 @@ header .main_container {
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 16px;
     grid-row-gap: 18px; 
+    margin-top: 70px;
 }
 
 .image_1_complex {
@@ -358,9 +363,10 @@ header .main_container {
 
 .team_grid_blocks {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     text-align: center; 
     justify-items: center;
+    margin-top: 70px;
 }
 
 .team_grid_blocks > div {
@@ -612,10 +618,11 @@ header .main_container {
 
 .pricing_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
     text-align: center; 
     justify-items: center;
+    margin-top: 70px;
 }
 
 .pricing_grid > div {
@@ -637,24 +644,284 @@ header .main_container {
     border-top: solid 3px #b27cf5;
 }
 
-.testimonials {
+.text_margin_40 {
+    margin: 40px auto;
+}
 
+.testimonials {
+    height: 874px;
+}
+
+.testimonials_flex {
+    display: flex;
+    position: relative;
+    margin-top: 77px;
+}
+
+.testimonials_flex_01 {
+    height: 399px;
+    width: 384px;
+    border: solid 10px #a3a3a3;
+    background: linear-gradient(to bottom, #cccccc, #d2bcb9);
+}
+
+.testimonials_flex_02 {
+    height: 309px;
+    width: 755px;
+    background-image: url(../images/testimonials_img_quotes.png);
+    background-size: cover;
+    border-bottom: solid 3px #fc5f45;
+    margin: auto 0;
+}
+
+.testimonials_navi {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.testimonials_text_style_02 {
+    font-family: 'Sacramento-Regular';
+    font-weight: 400;
+    font-size: 40px;
+    color: #272727;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.testimonials_text_style_margin {
+    margin: 40px 74px 36px 55px;
+}
+
+.testimonials_text_style_03 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #272727;
+}
+
+.testimonials_text_style_04 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fc5f45;
 }
 
 .why {
+    height: 1049px;
+}
 
+.why_grid_blocks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 75px;
+    grid-row-gap: 70px;
+    justify-items: center;
+    margin-top: 70px;
+}
+
+.why_grid_flex_inside {
+    display: flex;
+}
+
+.why_grid_flex_inside > img {
+    width: 49px;
+    height: 49px;
+    margin-right: 14px;
+}
+
+.why_button_flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+} 
+
+.why_button_flex > img {
+    width: 180px;
+    height: 50px;
+    margin: auto 22px;
+}
+
+.why_bottom_text_style {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #272727;
+    margin-block-end: 0;
+    margin-block-start: 0;
 }
 
 .blog {
-
+    height: 1151px;
 }
 
-.subscribe {
+.blog_grids {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 23px;
+}
 
+.blog_grids > div {
+    /* width: 555px;
+    height: 207px; */
+    background-color: white;
+}
+
+.grid_box_01 {
+    grid-row: 1 / 4;
+    border-bottom: solid 3px #fc5f45;
+}
+
+.grid_box_02 {
+    border-bottom: solid 3px #38c695;
+}
+
+.grid_box_03 {
+    border-bottom: solid 3px #b27cf5;
+}
+
+.grid_box_04 {
+    border-bottom: solid 3px #feb960;
+}
+
+.grey_gradient {
+    background: linear-gradient(to bottom, #cbcbcb, #7c7c7c);
+    width: 555px;
+    height: 443px;
+}
+
+.blog_grid_title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.blog_color_01 {
+    color: #fc5f45;
+}
+
+.blog_color_02 {
+    color: #38c695;
+}
+
+.blog_color_03 {
+    color: #b27cf5;
+}
+
+.blog_color_04 {
+    color: #feb960;
+}
+
+.blog_grid_december {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.blog_title_flex {
+    display: flex;
+    align-items: baseline;
+}
+
+.blog_first_title {
+    height: 100%;
+    align-items: flex-end;
+    margin-left: 50px;
+}
+
+.blog_text_margins_01 {
+    margin: 32px 55px 0px 50px;
+}
+
+.blog_text_margins_02 {
+    margin: 30px 55px 40px 50px;
+}
+
+/* .blog_text_margins_03 {
+    margin: ;
+} */
+/* 
+32px 50px 30px 37px
+
+google
+margin: 20px 50px 20px 37px;  */
+
+.subscribe {
+    height: 424px;
+}
+
+.subscribe_title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 400; 
+    color: #272727;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.subscribe_form {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe_input {
+    background-color: #f7f7f7;
+    border: solid 2px #efefef;
+    color: #f7f7f7;
+    height: 44px;
+    width: 300px;
+    border-radius: 50px;
+    font: 400 16px 'Poppins', sans-serif;
+}
+
+.subscribe_button {
+    background-image: url(../images/subscribe_button.png);
+    background-size: cover;
+    height: 50px;
+    width: 180px;
+    border: none;
+    background-color: white;
+    position: relative;
+    left: -24px;
 }
 
 .get {
-
+    height: 1276px;
 }
 
+.get_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 4fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 24px;
+    margin-top: 70px;
+}
+
+.get_input {
+    border: none;
+    background-color: white;
+    height: 50px;
+    font: 400 16px 'Poppins', sans-serif;
+}
+
+.get_last_input {
+    grid-column: 1 / 3;
+    height: 200px;
+}
+
+.get_button {
+    background-image: url(../images/get_button.png);
+    width: 190px;
+    height: 50px;
+    margin-top: 51px;
+    margin-left: 42%;
+    border: none;
+    background-color: #f7f7f7;
+}
 
