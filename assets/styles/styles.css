@@ -69,6 +69,10 @@ header .main_container {
     background-color: #3f4049;
 }
 
+.grey {
+    background-color: #cccccc;
+}
+
 .light_grey {
     background-color: #f7f7f7;
 }
@@ -900,7 +904,7 @@ margin: 20px 50px 20px 37px;  */
     grid-template-rows: 1fr 1fr 4fr;
     grid-column-gap: 30px;
     grid-row-gap: 24px;
-    margin-top: 70px;
+    margin: 70px 195px 0px;
 }
 
 .get_input {
@@ -922,6 +926,28 @@ margin: 20px 50px 20px 37px;  */
     margin-top: 51px;
     margin-left: 42%;
     border: none;
-    background-color: #f7f7f7;
+    background-color: #cccccc;
 }
 
+footer {
+    height: 222px;
+    margin-top: 149px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer_grid_01 {
+
+}
+
+.footer_grid_02 {
+
+}
+
+.footer_grid_03 {
+
+}
+
+.footer_grid_04 {
+
+}
