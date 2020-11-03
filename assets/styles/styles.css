@@ -113,7 +113,7 @@ header .main_container {
 }
 
 .banner {
-    height: 775px;
+    height: 475px;
 }
 
 .banner > p {
@@ -143,7 +143,7 @@ header .main_container {
 }
 
 .about {
-    height: 1000px;
+    height: 700px;
     position: relative;
 }
 
@@ -163,7 +163,7 @@ header .main_container {
     right: 0;
 }
 
-.transparent_number {
+.transparent_number_01 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: #f6f6f6;
@@ -174,10 +174,29 @@ header .main_container {
     margin-top: 0px;
 }
 
+.transparent_number {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #f0f0f0;
+    font-size: 273px;
+    position: absolute;
+    top: -88px;
+    left: 35%;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
 .about_us_text {
     width: 448px;
     z-index: 1;
     position: absolute;
+}
+
+.text_above_number {
+    z-index: 1;
+    position: absolute;
+    left: 31%;
+    top: 150px;
 }
 
 .shadow {
@@ -245,14 +264,14 @@ header .main_container {
 }
 
 .focus {
-    height: 825px;
+    height: 350px;
 }
 
 .focus_blocks {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
-    margin-top: 70px;
+    margin-top: 175px;
 }
 
 .focus_blocks > div {
@@ -301,7 +320,7 @@ header .main_container {
 }
 
 .explore {
-    height: 500px;
+    height: 200px;
     background-color: #3f4049;
     text-align: center;
 }
@@ -316,7 +335,7 @@ header .main_container {
 }
 
 .portfolio {
-    height: 1384px;
+    height: 1084px;
 }
 
 .portfolio_blocks {
@@ -362,7 +381,7 @@ header .main_container {
 }
 
 .team {
-    height: 1126px;
+    height: 826px;
 }
 
 .team_grid_blocks {
@@ -540,7 +559,7 @@ header .main_container {
 }
 
 .steps {
-    height: 1726px;
+    height: 1426px;
     position: relative;
 }
 
@@ -617,7 +636,7 @@ header .main_container {
 }
 
 .pricing {
-    height: 1051px;
+    height: 751px;
 }
 
 .pricing_grid {
@@ -653,7 +672,7 @@ header .main_container {
 }
 
 .testimonials {
-    height: 874px;
+    height: 574px;
 }
 
 .testimonials_flex {
@@ -712,7 +731,7 @@ header .main_container {
 }
 
 .why {
-    height: 1049px;
+    height: 749px;
 }
 
 .why_grid_blocks {
@@ -757,7 +776,7 @@ header .main_container {
 }
 
 .blog {
-    height: 1151px;
+    height: 851px;
 }
 
 .blog_grids {
@@ -770,8 +789,6 @@ header .main_container {
 }
 
 .blog_grids > div {
-    /* width: 555px;
-    height: 207px; */
     background-color: white;
 }
 
@@ -856,7 +873,7 @@ google
 margin: 20px 50px 20px 37px;  */
 
 .subscribe {
-    height: 424px;
+    height: 124px;
 }
 
 .subscribe_title {
@@ -895,7 +912,7 @@ margin: 20px 50px 20px 37px;  */
 }
 
 .get {
-    height: 1276px;
+    height: 976px;
 }
 
 .get_form {
@@ -942,17 +959,28 @@ footer {
 
 .footer_grid_02 {
     border-bottom: solid 3px #38c695;
+    margin-top: 64px;
 }
 
 .footer_grid_03 {
     border-bottom: solid 3px #b27cf5;
+    margin-top: 64px;
 }
 
 .footer_grid_04 {
     border-bottom: solid 3px #feb960;
+    margin-top: 64px;
+}
+
+.footer_logo {
+    margin: 93px 0px 80px 60px;
 }
 
 .footer_icons {
     display: flex;
     align-items: center;
+}
+
+.footer_icons > img {
+    margin: 0 5px;
 }
