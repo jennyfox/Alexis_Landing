@@ -937,17 +937,22 @@ footer {
 }
 
 .footer_grid_01 {
-
+    border-bottom: solid 3px #fc5f45;
 }
 
 .footer_grid_02 {
-
+    border-bottom: solid 3px #38c695;
 }
 
 .footer_grid_03 {
-
+    border-bottom: solid 3px #b27cf5;
 }
 
 .footer_grid_04 {
+    border-bottom: solid 3px #feb960;
+}
 
+.footer_icons {
+    display: flex;
+    align-items: center;
 }
