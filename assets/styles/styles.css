@@ -116,9 +116,17 @@ header .main_container {
 
 .banner > p {
     font-family: 'LibreBaskerville-Regular';
-    font-size: 60px;
+    font-size: 76px;
     color: white;
     text-align: center;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.banner_button {
+    position: relative; 
+    text-align: center; 
+    margin-top: 47px;
 }
 
 .text_pop_16_white {
@@ -146,8 +154,8 @@ header .main_container {
 }
 
 .about_1 {
-    height: 700px;
-    width: 555px;
+    height: 680px;
+    width: 535px;
     border: solid 10px #a3a3a3;
     background: linear-gradient(to bottom, #cccccc, #d2bcb9);
 }
@@ -353,7 +361,7 @@ header .main_container {
 }
 
 .portfolio {
-    height: 1084px;
+    height: 909px;
 }
 
 .portfolio_blocks {
@@ -361,7 +369,7 @@ header .main_container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 16px;
-    grid-row-gap: 18px; 
+    grid-row-gap: 10px; 
     margin-top: 175px;
 }
 
@@ -372,8 +380,8 @@ header .main_container {
 
 .image_1_plus {
     position: absolute;
-    top: 84px; 
-    left: 147px;
+    top: 76px; 
+    left: 151px;
 }
 
 .image_1_bottom {
@@ -399,7 +407,7 @@ header .main_container {
 }
 
 .team {
-    height: 826px;
+    height: 752px;
 }
 
 .team_grid_blocks {
@@ -514,8 +522,8 @@ header .main_container {
 .team_bennet_flex {
     display: flex;
     position: absolute;
-    top: 58%;
-    left: 0px;
+    top: 62%;
+    left: -11px;
 }
 
 .team_bennet_text {
@@ -587,7 +595,7 @@ header .main_container {
 }
 
 .steps {
-    height: 1426px;
+    height: 1194px;
     position: relative;
 }
 
@@ -665,7 +673,7 @@ header .main_container {
 }
 
 .pricing {
-    height: 751px;
+    height: 575px;
 }
 
 .pricing_grid {
@@ -701,7 +709,7 @@ header .main_container {
 }
 
 .testimonials {
-    height: 574px;
+    height: 399px;
 }
 
 .testimonials_flex {
@@ -760,21 +768,22 @@ header .main_container {
 }
 
 .why {
-    height: 749px;
+    height: 575px;
 }
 
 .why_grid_blocks {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
-    grid-column-gap: 75px;
-    grid-row-gap: 70px;
+    grid-column-gap: 86px;
+    grid-row-gap: 2px;
     justify-items: center;
     margin-top: 175px;
 }
 
 .why_grid_flex_inside {
     display: flex;
+    align-items: center;
 }
 
 .why_grid_flex_inside > img {
@@ -787,7 +796,7 @@ header .main_container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 133px;
 } 
 
 .why_button_flex > a {
@@ -806,7 +815,7 @@ header .main_container {
 }
 
 .blog {
-    height: 851px;
+    height: 676px;
 }
 
 .blog_grids {
@@ -905,7 +914,7 @@ header .main_container {
 }
 
 .subscribe {
-    height: 124px;
+    height: 134px;
 }
 
 .subscribe_title {
@@ -913,7 +922,8 @@ header .main_container {
     font-size: 30px;
     font-weight: 400; 
     color: #272727;
-    margin-bottom: 50px;
+    margin-bottom: 37px;
+    margin-top: -12px;
     text-align: center;
 }
 
@@ -927,7 +937,7 @@ header .main_container {
     border: solid 2px #efefef;
     color: #f7f7f7;
     height: 44px;
-    width: 327px;
+    width: 319px;
     border-radius: 80px;
     font: 400 16px 'Poppins', sans-serif;
     text-indent: 21px;
@@ -994,23 +1004,29 @@ footer {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.footer_margin {
+    margin-bottom: 31px;
+}
+
 .footer_grid_01 {
     border-bottom: solid 3px #fc5f45;
 }
 
 .footer_grid_02 {
     border-bottom: solid 3px #38c695;
-    margin-top: 64px;
 }
 
 .footer_grid_03 {
     border-bottom: solid 3px #b27cf5;
-    margin-top: 64px;
 }
 
 .footer_grid_04 {
     border-bottom: solid 3px #feb960;
-    margin-top: 64px;
+}
+
+.footer_text_margin {
+    margin-top: 60px;
+    margin-left: 41px;
 }
 
 .footer_logo {
