@@ -814,6 +814,11 @@ header .main_container {
     margin-block-start: 0;
 }
 
+.why_icons {
+    width: 49px;
+    height: 49px;
+}
+
 .blog {
     height: 676px;
 }
