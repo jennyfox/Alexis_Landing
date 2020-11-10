@@ -50,6 +50,7 @@ header .main_container {
 
 .general {
     width: 100%;
+    min-width: 1200px;
 }
 
 .main_container {
